@@ -1,5 +1,3 @@
-'use client';
-
 import { useState } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react'; // Requires lucide-react
@@ -28,13 +26,13 @@ export default function Navbar() {
           {/* Desktop Nav */}
           <div className="hidden md:flex space-x-10">
             {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.label}
                   href={link.href}
                   className="text-gray-100 hover:text-blue-500 hover:border-blue-500 transition"
                 >
                   {link.label}
-                </a>
+                </Link>
             ))}
           </div>
 
@@ -50,14 +48,14 @@ export default function Navbar() {
         {isOpen && (
           <div className="md:hidden mt-2 pb-4 space-y-2">
             {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.label}
                   href={link.href}
                   className="block text-gray-100 hover:text-blue-500 px-2 py-1 transition"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.label}
-                </a>
+                </Link>
                 
             ))}
           </div>

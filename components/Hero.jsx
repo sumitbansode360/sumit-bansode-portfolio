@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import TypewriterClient from "../components/ui/TypewriterClient";
+import { Link } from "lucide-react";
 
 function Hero() {
   return (
@@ -27,12 +28,12 @@ function Hero() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-6">
-            <a
+            <Link
               href="#contact"
               className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-xl shadow-md transition duration-300"
             >
               Contact Me
-            </a>
+            </Link>
             <a
               href="https://drive.google.com/file/d/16FDCfrToqxrCFqs7HRkV0keNQ0Ep5PhP/view?usp=sharing" target="_blank"
               className="border border-gray-400 hover:bg-white hover:text-black text-gray-200 font-semibold px-8 py-4 rounded-xl transition duration-300"
