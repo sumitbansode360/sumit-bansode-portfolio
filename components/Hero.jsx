@@ -1,7 +1,6 @@
+import Link from "next/link";
 import React from "react";
-import Navbar from "./Navbar";
 import TypewriterClient from "../components/ui/TypewriterClient";
-import { Link } from "lucide-react";
 
 function Hero() {
   return (
