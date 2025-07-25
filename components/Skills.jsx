@@ -73,7 +73,7 @@ const Skills = () => {
             <button
               key={cat}
               onClick={() => setActiveTab(cat)}
-              className={`px-6 py-2 rounded-full font-semibold transition border-2 text-sm md:text-base ${
+              className={`px-6 py-2 rounded-full font-semibold transition border-2 text-sm md:text-base cursor-pointer ${
                 activeTab === cat
                   ? "bg-blue-600 text-white border-blue-600 shadow-md"
                   : "bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100"

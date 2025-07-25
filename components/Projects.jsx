@@ -11,8 +11,7 @@ function Projects() {
         "A full-stack alumni-student social platform built using Django with real-time features.",
       iframe: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7325943242649190401?compact=1",
       link: "https://github.com/sumitbansode360/RjMaitriCircle",
-      live: "https://rjmaitricircle.vercel.app/",
-      video: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", // Example video link
+      live: "",
       tech: ["Django", "Redis", "Django Channels", " CI/CD"],
       breif_description: <ul className="text-slate-600 list-disc list-inside"  >
         <li>Built a social platform for alumni-student interaction with user authentication and profile management.</li>
@@ -26,8 +25,8 @@ function Projects() {
       description:
         "Built a real-time online auction platform where users can bid live.",
       iframe: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7326247076051218432?compact=1",
-      link: "https://github.com/sumitbansode360/braincompass",
-      live: "https://braincompass.live",
+      link: "https://github.com/sumitbansode360/SnapBid",
+      live: "",
       video: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       tech: ["Django", ,"Django Channels", "WebSockets", "Bootstrap"],
       breif_description: <ul className="text-slate-600 list-disc list-inside"  >
@@ -42,8 +41,8 @@ function Projects() {
       description:
         "Google Docs-like collaborative editor for teams to work in real time.",
       iframe: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7326283407221522434?compact=1",
-      link: "https://github.com/sumitbansode360/braincompass",
-      live: "https://braincompass.live",
+      link: "https://github.com/sumitbansode360/Editly",
+      live: "",
       video: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       tech: ["Django", "Django Channels", "WebSockets", "Rich Text Sync"],
       breif_description: <ul className="text-slate-600 list-disc list-inside"  >
@@ -105,7 +104,7 @@ function Projects() {
           <div className="relative max-w-lg w-full p-0">
             <div className="backdrop-blur-lg bg-blue-50 border border-blue-100 rounded-3xl shadow-2xl p-8 md:p-10 transition-all duration-300">
               <button
-                className="absolute top-5 right-5 text-gray-200 hover:text-white text-2xl bg-slate-900/60 rounded-full p-2 focus:outline-none border border-white/10 shadow"
+                className="absolute top-5 right-5 text-gray-200 hover:text-white text-2xl bg-slate-900/60 rounded-full p-2 focus:outline-none border cursor-pointer border-white/10 shadow"
                 onClick={() => setModalProject(null)}
                 aria-label="Close"
               >
@@ -130,16 +129,6 @@ function Projects() {
                 >
                   <FaGithub size={32} />
                   <span className="text-xs mt-1">Code</span>
-                </a>
-                <a
-                  href={modalProject.video}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex flex-col items-center text-slate-700 hover:text-blue-400 transition"
-                  title="Demo Video"
-                >
-                  <FaVideo size={32} />
-                  <span className="text-xs mt-1">Demo</span>
                 </a>
                 <a
                   href={modalProject.live}

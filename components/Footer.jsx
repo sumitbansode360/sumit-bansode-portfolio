@@ -83,7 +83,7 @@ const Footer = () => {
           />
           <button
             type="submit"
-            className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold shadow hover:bg-blue-700 transition"
+            className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold shadow cursor-pointer hover:bg-blue-700 transition"
           >
             {
             loading ? <div>Sending..</div>: 
