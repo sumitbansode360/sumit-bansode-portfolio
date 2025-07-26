@@ -10,22 +10,21 @@ function About() {
         <h2 className="text-4xl font-bold text-slate-900 text-center mb-12 border-b-4 border-blue-600 pb-2 w-fit mx-auto" data-aos="fade-up">
           About Me
         </h2>
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-8" data-aos="fade-up">
-          <div className="md:w-1/2 lg:w-1/3 w-full h-auto">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-6" data-aos="fade-up">
             <video
               autoPlay
               loop
               muted
               playsInline
-              className="w-auto object-cover"
+              className="object-cover rounded-2xl w-[500px]"
+              data-aos="fade-right"
             >
               <source src="about-vid.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-          </div>
-          <div className="lg:w-1/2 w-full mt-6">
-            <div className="max-w-3xl mx-auto" data-aos="fade-up">
-              <p className="text-slate-800 leading-relaxed mb-6 text-xl text-justify">
+          <div className="lg:w-1/2 w-full mt-6" data-aos="fade-left">
+            <div className="max-w-3xl mx-auto">
+              <p className="text-slate-700 leading-relaxed mb-6 text-lg px-2 text-justify">
                 I'm{" "}
                 <span className="font-semibold text-blue-600">
                   Sumit Bansode

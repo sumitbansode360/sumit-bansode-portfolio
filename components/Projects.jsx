@@ -64,14 +64,14 @@ function Projects() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
-              <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:scale-105 transition-all duration-300" data-aos="fade-up">
+              <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:scale-105 transition-all duration-300" data-aos="zoom-in">
                 {/* iframe */}
-                <iframe src={project.iframe} height="299" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                <iframe src={project.iframe} height="299" width="100%" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>
                 <div className="p-5">
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">
                     {project.title}
                   </h3>
-                  <p className="text-md text-slate-700 mb-4 text-justify">
+                  <p className="text-slate-700 mb-4 text-justify">
                     {project.description}
                   </p>
 

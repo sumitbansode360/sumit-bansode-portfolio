@@ -86,10 +86,11 @@ const Skills = () => {
 
         {/* Grid */}
         <div className="flex flex-wrap justify-center gap-12 items-center">
-        {skillsData[activeTab].map((skill) => (
+          {skillsData[activeTab].map((skill) => (
             <div
               key={skill.name}
               className="bg-white border border-blue-100 rounded-xl p-6 w-28 h-28 flex flex-col items-center justify-center shadow hover:scale-105 transition duration-300"
+              data-aos="flip-left"
             >
               <div className="text-3xl mb-2">{skill.icon}</div>
               <div className="text-sm font-semibold text-blue-700 text-center">
