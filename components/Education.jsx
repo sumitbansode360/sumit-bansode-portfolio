@@ -16,7 +16,7 @@ const educationItems = [
     ),
     cardDetailedText: (
       <p className="text-base text-slate-700">
-        Gained hands-on experience with full-stack development, learning technologies like Django, React, Next.js, and Tailwind CSS.
+        Developed a deep interest in web development, which led me to start learning Django. I later expanded into Django REST Framework, Django Channels, and eventually React — build a strong foundation in full-stack development.
       </p>
     ),
   },
@@ -32,7 +32,7 @@ const educationItems = [
     ),
     cardDetailedText: (
       <p className="text-base text-slate-700">
-        Focused on Physics, Chemistry, and Computer Science. Developed a strong interest in coding and logic building.
+        Studied Physics, Chemistry, and Mathematics. I had a strong inclination towards Physics and Chemistry, which enhanced my problem-solving skills and logical thinking — a foundation that later helped in programming.
       </p>
     ),
   },
