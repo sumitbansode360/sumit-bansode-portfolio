@@ -130,7 +130,7 @@ function Projects() {
                   <FaGithub size={32} />
                   <span className="text-xs mt-1">Code</span>
                 </a>
-                <a
+                {/* <a
                   href={modalProject.live}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -139,7 +139,7 @@ function Projects() {
                 >
                   <FaExternalLinkAlt size={32} />
                   <span className="text-xs mt-1">Live</span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
