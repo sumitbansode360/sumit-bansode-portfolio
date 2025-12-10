@@ -34,7 +34,7 @@ function Hero() {
               Contact Me
             </Link>
             <a
-              href="https://drive.google.com/file/d/16FDCfrToqxrCFqs7HRkV0keNQ0Ep5PhP/view?usp=sharing" target="_blank"
+              href="https://drive.google.com/file/d/1ErKR7WGV-t9ybi_2nZVHMtk-g7ToYsf2/view?usp=sharing" target="_blank"
               className="border border-gray-400 hover:bg-white hover:text-black text-gray-200 font-semibold px-8 py-4 rounded-xl transition duration-300"
             >
               View Resume

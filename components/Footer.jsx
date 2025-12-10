@@ -108,7 +108,7 @@ const Footer = () => {
             <FaLinkedin /> LinkedIn
           </a>
           <a
-            href="https://drive.google.com/file/d/16FDCfrToqxrCFqs7HRkV0keNQ0Ep5PhP/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ErKR7WGV-t9ybi_2nZVHMtk-g7ToYsf2/view?usp=sharing"
             target="_blank"
             className="text-blue-600 hover:underline flex items-center gap-2"
           >
