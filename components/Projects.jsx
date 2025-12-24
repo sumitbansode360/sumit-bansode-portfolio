@@ -9,48 +9,129 @@ function Projects() {
       title: "RjMaitriCircle",
       description:
         "A full-stack alumni-student social platform built using Django with real-time features.",
-      iframe: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7325943242649190401?compact=1",
+      iframe:
+        "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7325943242649190401?compact=1",
       link: "https://github.com/sumitbansode360/RjMaitriCircle",
       live: "",
       tech: ["Django", "Redis", "Django Channels", " CI/CD"],
-      breif_description: <ul className="text-slate-600 list-disc list-inside"  >
-        <li>Built a social platform for alumni-student interaction with user authentication and profile management.</li>
-        <li>Integrated real-time messaging using Django Channels and Redis.</li>
-        <li>Implemented post features: like, comment, save, and in-app user notifications.</li>
-        <li>Deployed full-stack app using GitHub Actions and Render for CI/CD.</li>
-      </ul>,
+      breif_description: (
+        <ul className="text-slate-600 list-disc list-inside">
+          <li>
+            Built a social platform for alumni-student interaction with user
+            authentication and profile management.
+          </li>
+          <li>
+            Integrated real-time messaging using Django Channels and Redis.
+          </li>
+          <li>
+            Implemented post features: like, comment, save, and in-app user
+            notifications.
+          </li>
+          <li>
+            Deployed full-stack app using GitHub Actions and Render for CI/CD.
+          </li>
+        </ul>
+      ),
     },
     {
       title: "SnapBid",
       description:
         "Built a real-time online auction platform where users can bid live.",
-      iframe: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7326247076051218432?compact=1",
+      iframe:
+        "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7326247076051218432?compact=1",
       link: "https://github.com/sumitbansode360/SnapBid",
-      live: "",
+      live: "https://snapbid.onrender.com/home/",
       video: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      tech: ["Django", ,"Django Channels", "WebSockets", "Bootstrap"],
-      breif_description: <ul className="text-slate-600 list-disc list-inside"  >
-        <li>Developed a real-time bidding app with WebSocket-based live auction flow.</li>
-        <li>Implemented bid timers, auto-refresh logic, and real-time status updates.</li>
-        <li>Designed responsive frontend using Bootstrap for cross-device usability.</li>
-        <li>Enabled live user notifications for auction events and price changes.</li>
-      </ul>,
+      tech: ["Django", , "Django Channels", "WebSockets", "Bootstrap"],
+      breif_description: (
+        <ul className="text-slate-600 list-disc list-inside">
+          <li>
+            Developed a real-time bidding app with WebSocket-based live auction
+            flow.
+          </li>
+          <li>
+            Implemented bid timers, auto-refresh logic, and real-time status
+            updates.
+          </li>
+          <li>
+            Designed responsive frontend using Bootstrap for cross-device
+            usability.
+          </li>
+          <li>
+            Enabled live user notifications for auction events and price
+            changes.
+          </li>
+        </ul>
+      ),
+      demoAccounts: [
+        { role: "bidder", username: "testuser1", password: "test@123" },
+        { role: "bidder", username: "testuser2", password: "test@123" },
+        { role: "owner", username: "testuser3", password: "test@123" },
+      ],
     },
     {
       title: "Editly",
       description:
         "Google Docs-like collaborative editor for teams to work in real time.",
-      iframe: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7326283407221522434?compact=1",
+      iframe:
+        "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7326283407221522434?compact=1",
       link: "https://github.com/sumitbansode360/Editly",
-      live: "",
+      live: "https://editly-ksgl.onrender.com/document/list/",
       video: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       tech: ["Django", "Django Channels", "WebSockets", "Rich Text Sync"],
-      breif_description: <ul className="text-slate-600 list-disc list-inside"  >
-      <li>Built a collaborative editor allowing multiple users to edit the same document in real-time.</li>
-      <li>Integrated structured formatting tools (bold, headings, lists, etc.).</li>
-      <li>Engineered low-latency, socket-based sync logic using Django Channels.</li>
-      <li>Handled concurrent editing scenarios for a seamless user experience.</li>
-      </ul>,
+      breif_description: (
+        <ul className="text-slate-600 list-disc list-inside">
+          <li>
+            Built a collaborative editor allowing multiple users to edit the
+            same document in real-time.
+          </li>
+          <li>
+            Integrated structured formatting tools (bold, headings, lists,
+            etc.).
+          </li>
+          <li>
+            Engineered low-latency, socket-based sync logic using Django
+            Channels.
+          </li>
+          <li>
+            Handled concurrent editing scenarios for a seamless user experience.
+          </li>
+        </ul>
+      ),
+      demoAccounts: [
+        { role: "user 1", username: "testuser1", password: "test@123" },
+        { role: "user 2", username: "testuser2", password: "test@123" },
+      ],
+    },
+    {
+      title: "BlogApi",
+      description:
+        "Developed a scalable Blog API with Django Rest Framework (DRF).",
+      iframe:
+        "https://www.linkedin.com/embed/feed/update/urn:li:share:7332771811127885825?collapsed=1",
+      link: "https://github.com/sumitbansode360/Blog_api",
+      live: "https://drfblogapibysumit.pythonanywhere.com/swagger/",
+      video: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      tech: ["Django", "Django Channels", "WebSockets", "Rich Text Sync"],
+      breif_description: (
+        <ul className="text-slate-600 list-disc list-inside">
+          <li>
+            Designed and developed RESTful APIs for creating, reading, updating,
+            and deleting blog posts.
+          </li>
+          <li>
+            Implemented user authentication and authorization for secure access
+            to blog resources.
+          </li>
+          <li>
+            Ensured clean API structure and consistent responses using Django
+            Rest Framework best practices.
+          </li>
+        </ul>
+      ),
+      demoAccounts: [
+        { role: "user 1", username: "testuser1", password: "test@123" },
+      ],
     },
   ];
 
@@ -64,9 +145,20 @@ function Projects() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
-              <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:scale-105 transition-all duration-300" data-aos="zoom-in">
+              <div
+                key={index}
+                className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 hover:scale-105 transition-all duration-300"
+                data-aos="zoom-in"
+              >
                 {/* iframe */}
-                <iframe src={project.iframe} height="299" width="100%" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>
+                <iframe
+                  src={project.iframe}
+                  height="299"
+                  width="100%"
+                  frameBorder="0"
+                  allowFullScreen=""
+                  title="Embedded post"
+                ></iframe>
                 <div className="p-5">
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">
                     {project.title}
@@ -77,7 +169,10 @@ function Projects() {
 
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((tech, index) => (
-                      <span key={index} className="text-sm bg-blue-600 px-2 py-1 rounded text-white">
+                      <span
+                        key={index}
+                        className="text-sm bg-blue-600 px-2 py-1 rounded text-white"
+                      >
                         {tech}
                       </span>
                     ))}
@@ -119,6 +214,33 @@ function Projects() {
               <p className="text-lg text-slate-600 mb-6">
                 {modalProject.breif_description}
               </p>
+              {modalProject.demoAccounts && (
+                <div className="mt-6 bg-white rounded-xl border border-blue-200 p-4 mb-4">
+                  <h4 className="text-sm font-semibold text-slate-900 mb-3">
+                    Demo Login Credentials
+                  </h4>
+
+                  <ul className="space-y-2 text-sm text-slate-700">
+                    {modalProject.demoAccounts.map((acc, idx) => (
+                      <li
+                        key={idx}
+                        className="flex justify-between bg-blue-50 rounded-md px-3 py-2"
+                      >
+                        <span className="font-medium">{acc.role}</span>
+                        <span>
+                          <strong>{acc.username}</strong> / {acc.password}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+
+                  <p className="text-xs text-slate-500 mt-3">
+                    * Demo accounts reset periodically. Please don’t change
+                    passwords.
+                  </p>
+                </div>
+              )}
+
               <div className="flex justify-center gap-10 mb-4">
                 <a
                   href={modalProject.link}
@@ -130,16 +252,20 @@ function Projects() {
                   <FaGithub size={32} />
                   <span className="text-xs mt-1">Code</span>
                 </a>
-                {/* <a
-                  href={modalProject.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex flex-col items-center text-slate-700 hover:text-blue-400 transition"
-                  title="Live Site"
-                >
-                  <FaExternalLinkAlt size={32} />
-                  <span className="text-xs mt-1">Live</span>
-                </a> */}
+                {modalProject.title === "RjMaitriCircle" ? (
+                  <div></div>
+                ) : (
+                  <a
+                    href={modalProject.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-col items-center text-slate-700 hover:text-blue-400 transition"
+                    title="Live Site"
+                  >
+                    <FaExternalLinkAlt size={32} />
+                    <span className="text-xs mt-1">Live</span>
+                  </a>
+                )}
               </div>
             </div>
           </div>
